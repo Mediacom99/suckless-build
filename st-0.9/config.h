@@ -10,7 +10,7 @@ static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 */
 
-static char *font = "JetBrainsMono Mono NF:style=Regular:pixelsize=26:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Mono NF:style=Regular:pixelsize=30:antialias=true:autohint=true";
 static int borderpx = 20; /*2*/
 
 /*
