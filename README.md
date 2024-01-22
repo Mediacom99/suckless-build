@@ -6,6 +6,7 @@ My personal build for dwm, st and dmenu, the three main Suckless tools: https://
 Routine to customization:
     1. make a backup copy of config.def.h into backup folder
     2. do your customization and patching on config.def.h
+        2.1 use patch -p1 < path/to/patch.diff to patch 
     3. cp config.def.h config.h
     4. sudo make clean install
     5. if you want to go back, just do cp backup/config.def.lastbackup.h config.h and recompile
