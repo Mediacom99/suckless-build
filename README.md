@@ -14,11 +14,13 @@ Routine to customization:
     
 ## How to revert to an old commit ? 
 
-First fetch and pull:
-  1. git fetch && git pull
-Then reset local repo to old commit:
-  2. git reset --hard <commit-hash>
+First fetch and pull: git fetch && git pull
+
+Then reset local repo to old commit: git reset --hard <commit-hash>
+
 Do whatever you want.
+
 Push your new current commit and force remote to accept it (You will lose all the commits newer than the one you reverted back to!):
-  3. git push -f <current-branch-name> origin
+
+git push -f <current-branch-name> origin
 
