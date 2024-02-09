@@ -1,0 +1,12 @@
+
+# Editors
+export VISUAL="/usr/bin/vim"
+export SUDO_EDITOR="/usr/bin/vim"
+export EDITOR="/usr/bin/nvim"
+export GIT_EDITOR="/usr/bin/nvim"
+export XDG_CONFIG_HOME="/home/edoardo/.config"
+export MOZ_ENABLE_WAYLAND=1
+# export PKG_CONFIG_PATH="/usr/lib/x86_64-linux-gnu/pkgconfig"
+
+# For cargo binaries
+export PATH="${PATH}:/home/edoardo/.cargo/bin" 

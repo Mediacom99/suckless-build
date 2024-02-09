@@ -1,0 +1,22 @@
+
+#Alias for zsh
+
+alias sudo="sudo "
+alias ls='ls --color=auto'
+alias ll="ls -lXh --color=auto"
+alias la="ls -laXh --color=auto"
+alias grep='grep --color=auto'
+# alias config='/usr/bin/git -C $HOME/dotfiles --work-tree=$HOME'
+alias vim='/usr/bin/nvim'
+# alias neo="neo -S 12 -a --colormode=256 --defaultbg --charset=ascii"
+# alias mixer="alsamixer"
+alias poweroff="systemctl poweroff"
+alias reboot="systemctl reboot"
+alias open="xdg-open"
+alias vivaldi="vivaldi --enable-features=UseOzonePlatform --ozone-platform=wayland"
+# alias gimp="flatpak run org.gimp.GIMP//beta"
+alias du="du -b"
+alias pipes="$HOME/pipes.sh/pipes.sh -r 10000 -p 69 -t 1"
+
+# alias copy="wl-copy"
+# alias paste="wl-paste"

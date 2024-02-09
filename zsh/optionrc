@@ -1,0 +1,17 @@
+
+# Options for zsh
+
+setopt correct                # Auto corrects mistakes
+setopt extendedglob             # Extend globbing. Allows using reg expressions with *
+setopt nocaseglob             # Case insensitive globbing
+setopt numericglobsort        # Sort glob numerically when it makes sense
+setopt nobeep                 # No beep
+setopt appendhistory          # Immediately append history instead of overwriting
+setopt histignorealldups
+setopt autocd
+setopt inc_append_history
+setopt histignorespace 
+
+
+#Turn off all beeps
+unsetopt BEEP
