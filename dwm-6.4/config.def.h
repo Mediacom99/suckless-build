@@ -50,6 +50,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
+// Mod1Mask -> alt key, Mod4Mask -> command key / windows key
 #define MODKEY Mod1Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
@@ -70,7 +71,7 @@ static const char *dmenucmd[] = {
     "-nf",       fg_norm, "-sb",    bg_sel, "-sf",     fg_sel, NULL};
 
 static const char *termcmd[]  = { "st", NULL };
-static const char *clipcatdmenu[] = {"clipcat-menu", "--finder=dmenu", NULL};
+static const char *clipcatdmenu[] = {"clipcat-menu", "--finder=dmenu", NULL}
 
 /* Custom commands */
 

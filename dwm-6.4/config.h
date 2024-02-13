@@ -50,6 +50,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
+// Mod1Mask -> alt key, Mod4Mask -> command key / windows key
 #define MODKEY Mod1Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
